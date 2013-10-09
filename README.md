@@ -75,7 +75,7 @@ if ([cell respondsToSelector:@selector(separatorInset)]) {
 }
 ```
 
-Now we're done? YEP! Just set your labels inside the custom cell how you used to before we had to go crazy with NSAttributedStrings to get something to work.
+Now we're done? YEP! Just set your labels' frames inside the custom cell how you used to before we had to go crazy with NSAttributedStrings, but use the new boundingRect size to do it.
 
 ----------------------
 
