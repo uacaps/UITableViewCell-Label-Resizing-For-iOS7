@@ -28,7 +28,7 @@ Let's just set up an attributed string and make the label fit that:
 
 ```objc
 // Let's make an NSAttributedString first
-NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:loremIpsum];
+NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:@"Hello World!"];
 // Add Background Color for Smooth rendering
 [attributedString setAttributes:@{NSBackgroundColorAttributeName:[UIColor whiteColor]} range:NSMakeRange(0, attributedString.length)];
 // Add Main Font Color
