@@ -1,4 +1,4 @@
-UITableViewCell-Label-Resizing-For-iOS7
+UITableViewCell and UILabel Resizing For iOS7 and the Future!
 =======================================
 
 Pesky UITableViewCell's blocking your resizing? Don't sing the blues, **we've got your fix**!
