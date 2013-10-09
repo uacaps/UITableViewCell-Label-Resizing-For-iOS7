@@ -13,8 +13,6 @@
 		1E9F59CE1805E53E00258067 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E9F59CC1805E53E00258067 /* InfoPlist.strings */; };
 		1E9F59D01805E53E00258067 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F59CF1805E53E00258067 /* main.m */; };
 		1E9F59D41805E53E00258067 /* CAPSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F59D31805E53E00258067 /* CAPSAppDelegate.m */; };
-		1E9F59D71805E53E00258067 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E9F59D51805E53E00258067 /* Main_iPhone.storyboard */; };
-		1E9F59DA1805E53E00258067 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E9F59D81805E53E00258067 /* Main_iPad.storyboard */; };
 		1E9F59DD1805E53E00258067 /* CAPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F59DC1805E53E00258067 /* CAPSViewController.m */; };
 		1E9F59DF1805E53E00258067 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E9F59DE1805E53E00258067 /* Images.xcassets */; };
 		1E9F59E61805E53E00258067 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9F59E51805E53E00258067 /* XCTest.framework */; };
@@ -22,6 +20,10 @@
 		1E9F59E81805E53E00258067 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9F59C71805E53E00258067 /* UIKit.framework */; };
 		1E9F59F01805E53E00258067 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E9F59EE1805E53E00258067 /* InfoPlist.strings */; };
 		1E9F59F21805E53E00258067 /* CustomCellForiOS7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F59F11805E53E00258067 /* CustomCellForiOS7Tests.m */; };
+		1E9F59FE1805E55A00258067 /* CAPSCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F59FD1805E55A00258067 /* CAPSCustomCell.m */; };
+		1E9F5A001805E59900258067 /* CAPSCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E9F59FF1805E59900258067 /* CAPSCustomCell.xib */; };
+		1E9F5A041805E82F00258067 /* LoremIpsum.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F5A031805E82F00258067 /* LoremIpsum.m */; };
+		1E9F5A061805F1AA00258067 /* CAPSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E9F5A051805F1AA00258067 /* CAPSViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +47,6 @@
 		1E9F59D11805E53E00258067 /* CustomCellForiOS7-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomCellForiOS7-Prefix.pch"; sourceTree = "<group>"; };
 		1E9F59D21805E53E00258067 /* CAPSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAPSAppDelegate.h; sourceTree = "<group>"; };
 		1E9F59D31805E53E00258067 /* CAPSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAPSAppDelegate.m; sourceTree = "<group>"; };
-		1E9F59D61805E53E00258067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		1E9F59D91805E53E00258067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		1E9F59DB1805E53E00258067 /* CAPSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAPSViewController.h; sourceTree = "<group>"; };
 		1E9F59DC1805E53E00258067 /* CAPSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAPSViewController.m; sourceTree = "<group>"; };
 		1E9F59DE1805E53E00258067 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +55,12 @@
 		1E9F59ED1805E53E00258067 /* CustomCellForiOS7Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomCellForiOS7Tests-Info.plist"; sourceTree = "<group>"; };
 		1E9F59EF1805E53E00258067 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1E9F59F11805E53E00258067 /* CustomCellForiOS7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCellForiOS7Tests.m; sourceTree = "<group>"; };
+		1E9F59FC1805E55A00258067 /* CAPSCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPSCustomCell.h; sourceTree = "<group>"; };
+		1E9F59FD1805E55A00258067 /* CAPSCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPSCustomCell.m; sourceTree = "<group>"; };
+		1E9F59FF1805E59900258067 /* CAPSCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAPSCustomCell.xib; sourceTree = "<group>"; };
+		1E9F5A021805E82F00258067 /* LoremIpsum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoremIpsum.h; sourceTree = "<group>"; };
+		1E9F5A031805E82F00258067 /* LoremIpsum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoremIpsum.m; sourceTree = "<group>"; };
+		1E9F5A051805F1AA00258067 /* CAPSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAPSViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +120,13 @@
 		1E9F59C91805E53E00258067 /* CustomCellForiOS7 */ = {
 			isa = PBXGroup;
 			children = (
+				1E9F5A011805E6FB00258067 /* Lorem Ipsum */,
+				1E9F59FB1805E54A00258067 /* CustomCell */,
 				1E9F59D21805E53E00258067 /* CAPSAppDelegate.h */,
 				1E9F59D31805E53E00258067 /* CAPSAppDelegate.m */,
-				1E9F59D51805E53E00258067 /* Main_iPhone.storyboard */,
-				1E9F59D81805E53E00258067 /* Main_iPad.storyboard */,
 				1E9F59DB1805E53E00258067 /* CAPSViewController.h */,
 				1E9F59DC1805E53E00258067 /* CAPSViewController.m */,
+				1E9F5A051805F1AA00258067 /* CAPSViewController.xib */,
 				1E9F59DE1805E53E00258067 /* Images.xcassets */,
 				1E9F59CA1805E53E00258067 /* Supporting Files */,
 			);
@@ -153,6 +160,25 @@
 				1E9F59EE1805E53E00258067 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E9F59FB1805E54A00258067 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E9F59FC1805E55A00258067 /* CAPSCustomCell.h */,
+				1E9F59FD1805E55A00258067 /* CAPSCustomCell.m */,
+				1E9F59FF1805E59900258067 /* CAPSCustomCell.xib */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		1E9F5A011805E6FB00258067 /* Lorem Ipsum */ = {
+			isa = PBXGroup;
+			children = (
+				1E9F5A021805E82F00258067 /* LoremIpsum.h */,
+				1E9F5A031805E82F00258067 /* LoremIpsum.m */,
+			);
+			name = "Lorem Ipsum";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +258,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E9F59DA1805E53E00258067 /* Main_iPad.storyboard in Resources */,
 				1E9F59DF1805E53E00258067 /* Images.xcassets in Resources */,
-				1E9F59D71805E53E00258067 /* Main_iPhone.storyboard in Resources */,
+				1E9F5A061805F1AA00258067 /* CAPSViewController.xib in Resources */,
+				1E9F5A001805E59900258067 /* CAPSCustomCell.xib in Resources */,
 				1E9F59CE1805E53E00258067 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E9F59DD1805E53E00258067 /* CAPSViewController.m in Sources */,
+				1E9F5A041805E82F00258067 /* LoremIpsum.m in Sources */,
+				1E9F59FE1805E55A00258067 /* CAPSCustomCell.m in Sources */,
 				1E9F59D01805E53E00258067 /* main.m in Sources */,
 				1E9F59D41805E53E00258067 /* CAPSAppDelegate.m in Sources */,
 			);
@@ -285,22 +313,6 @@
 				1E9F59CD1805E53E00258067 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1E9F59D51805E53E00258067 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E9F59D61805E53E00258067 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		1E9F59D81805E53E00258067 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E9F59D91805E53E00258067 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		1E9F59EE1805E53E00258067 /* InfoPlist.strings */ = {

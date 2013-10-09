@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CAPSViewController : UIViewController
+@interface CAPSViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end
